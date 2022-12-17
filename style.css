@@ -1,0 +1,715 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #0c8bcb;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+header{
+    color: white;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+.Formulario
+{
+    background-color: white;
+    width: 98%;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    height: 35rem;
+    border-radius: .5px;
+    height: 40rem;
+}
+.Formulario .titulo1
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.titulo1 >h2
+{
+    margin-left: 50px;
+    width: 30%;
+}
+.titulo1 .camposObli >h4
+{
+    margin-right: 1060px;
+    color: gray;
+    width: 30%;
+}
+ .esp #Idioma
+{
+    color: #0c8bcb; 
+    border: 0px;
+    margin-left: -130px;
+    
+}
+.FormularioIn
+{
+    margin-left: 220px;
+    margin-top: 20px;
+    
+}
+.FormularioIn input[type = submit]
+{
+   margin-top: 28px;
+   margin-left: 990px;
+   background-color: #0c8bcb;
+   color: #fff;
+   height: 45px;
+   border-radius: .4rem;
+   font-size: 14px;
+   font-weight: bold;
+   cursor: pointer;
+}
+ #condiciones
+{
+    color: #0c8bcb;
+    text-decoration: none;
+}
+h4
+{
+    color: darkgray;
+    font-size: 15px;
+}
+#txtCorreo
+{
+    margin-top: 30px;
+}
+.genero p
+{
+    margin-top: 30px;
+}
+
+.nombre input[type=text]
+{
+    height: 30px;
+    border: 1px solid darkgray;
+    border-radius: .2rem;
+}
+.correo #txtCorreo
+{
+    height: 30px;
+    width: 293px;
+    border: 1px solid darkgray;
+    border-radius: .2rem;
+    margin-left: 20px;
+}
+.fecha
+{
+    margin-top: 30px;
+}
+.fecha h4
+{
+    margin-top: 0;
+    font-size: 13px;
+    margin-left: 155px;
+}
+.pass #txtContra
+{
+    margin-top: 5px;
+    height: 30px;
+    width: 273px;
+    height: 30px;
+    border: 1px solid darkgray;
+    border-radius: .2rem;
+
+}
+
+#condiciones2
+{
+    color: #0c8bcb;
+   text-decoration: none;
+   font-size: 13px;
+   margin-left: 90px;
+}
+.num
+{
+    margin-top: 15px;
+}
+.num #Num
+{
+    width: 165px;
+    height: 30px;
+    border: 1px solid darkgray;
+    border-radius: .2rem;
+}
+.num #Numero
+{
+    height: 35px;
+    border-radius: .2rem;
+}
+.terminos
+{
+    margin-top: 25px;
+}
+
+ @media (min-width:360px)
+ {
+    .Formulario
+    {
+        width: 92%;
+        height: 38rem;
+    }
+    .titulo1 >h2
+    {
+        margin-left: 3px;
+        width: 40%;
+        font-size: 15px;
+    }
+    .titulo1 .camposObli >h4
+    {
+        margin-right: 110px;
+      
+        width: 60%;
+        font-size: 10px;
+    }
+    .esp #Idioma
+    {
+        margin-left: -90px;
+        font-size: 12px;
+        width: 80px;
+        
+    }
+    .FormularioIn
+    {
+        margin-left: 90px;
+        margin-top: 30px;
+        font-size: 12px;
+    }
+    .nombre input[type=text]
+    {
+        height: 20px;
+        width: 86px;
+    }
+    .correo #txtCorreo
+    {
+        height: 23px;
+        width: 183px;
+        margin-left: 13px;
+    }
+    .fecha
+    {
+        margin-top: 20px;
+        margin-left: -40px;
+    }
+    .fecha #Dia
+    {
+       width: 36px;
+       font-size: 10px;
+    }
+    .fecha #fecha_mes
+    {
+        width: 74px;
+        font-size: 10px;
+    }
+    .fecha #Año
+    {
+        width: 47px;
+        font-size: 10px;
+    }
+    .fecha h4
+    {
+        font-size: 11px;
+        margin-left: 115px;
+    }
+    .pass
+    {
+        margin-left: -40px;
+    }
+    .pass #txtContra
+    {
+        width: 204px;
+        height: 23px;
+    }
+    #condiciones2
+    {
+        font-size: 11px;
+        margin-left: 67px;
+    }
+    .num
+    {
+        margin-top: 35px;
+        margin-left: -38px;
+    }
+    .num #Numero
+    {
+        width: 47px;
+        font-size: 11px;
+        height: 25px;
+    }
+    .num #Num
+    {
+        width: 122px;
+        height: 25px;
+    }
+    .FormularioIn input[type = submit]
+    {
+        margin-top: 50px;
+        margin-left: 89px;
+    }
+ }
+ @media (min-width:412px)
+ {
+    .Formulario
+    {
+      
+        width: 92%;
+        height: 38rem;
+    }
+    .titulo1 >h2
+    {
+        margin-left: 3px;
+        width: 30%;
+        font-size: 15px;
+    }
+    .titulo1 .camposObli >h4
+    {
+        margin-right: 110px;
+      
+        width: 90%;
+        font-size: 10px;
+    }
+    .esp #Idioma
+    {
+        margin-left: -90px;
+        font-size: 12px;
+        width: 80px;
+
+        
+    }
+    .FormularioIn
+    {
+        margin-left: 90px;
+        margin-top: 30px;
+        font-size: 12px;
+    }
+    .nombre input[type=text]
+    {
+        height: 20px;
+        width: 86px;
+    }
+    .correo #txtCorreo
+    {
+        height: 23px;
+        width: 183px;
+        margin-left: 13px;
+    }
+    .fecha
+    {
+        margin-top: 20px;
+        margin-left: -40px;
+    }
+    .fecha #Dia
+    {
+       width: 36px;
+       font-size: 10px;
+    }
+    .fecha #fecha_mes
+    {
+        width: 74px;
+        font-size: 10px;
+    }
+    .fecha #Año
+    {
+        width: 47px;
+        font-size: 10px;
+    }
+    .fecha h4
+    {
+        font-size: 11px;
+        margin-left: 115px;
+    }
+    .pass
+    {
+        margin-left: -40px;
+    }
+    .pass #txtContra
+    {
+        width: 204px;
+        height: 23px;
+    }
+    #condiciones2
+    {
+        font-size: 11px;
+        margin-left: 67px;
+    }
+    .num
+    {
+        margin-top: 35px;
+        margin-left: -38px;
+    }
+    .num #Numero
+    {
+        width: 47px;
+        font-size: 11px;
+        height: 25px;
+    }
+    .num #Num
+    {
+        width: 122px;
+        height: 25px;
+    }
+    .FormularioIn input[type = submit]
+    {
+        margin-top: 50px;
+        margin-left: 89px;
+    }
+ 
+ }
+ @media (min-width:488px)
+ {
+    .titulo1 >h2
+    {
+        margin-left: 39px;
+        font-size: 19px;
+    }
+    .FormularioIn
+    {
+        margin-left: 160px;
+        font-size: 14px;
+    }
+    .nombre input[type=text]
+    {
+        height: 25px;
+        width: 106px;
+    }
+    .correo #txtCorreo
+    {
+        height: 25px;
+        width: 226px;
+        margin-left: 13px;
+    }
+    .Formulario
+    {
+        height: 70rem;
+    }
+    .pass #txtContra
+    {
+        width: 198px;
+        margin-left: 2px;
+    }
+    .pass
+    {
+     margin-left: 0px;
+    }
+    #condiciones2
+    {
+        font-size: 12px;
+        margin-left: 77px;
+    }
+    .num #Num
+    {
+        width: 152px;
+        height: 25px;
+    }
+    .FormularioIn input[type = submit]
+    {
+        margin-top: 50px;
+        margin-left: 130px;
+    }
+ }
+ @media (min-width:720px) 
+ {
+
+.Formulario
+    {
+        background-color: white;
+        width: 95%;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        height: 35rem;
+        border-radius: .5px;
+        height: 40rem;
+    }
+
+    .titulo1 >h2
+    {
+        margin-left: 60px;
+        width: 90%;
+    }
+    .titulo1 .camposObli >h4
+    {
+        margin-right: 390px;
+        width: 100%;
+        font-size: 13px;
+    }
+    .esp #Idioma
+    {
+        margin-left: -110px;
+        border: 0px;
+        background-color: #fff;
+       
+    }
+    .FormularioIn
+    {
+        margin-left: 220px;
+        margin-top: 30px;
+    }
+    h4
+    {
+        color: darkgray;
+        font-size: 15px;
+    }
+    #txtCorreo
+    {
+        margin-top: 30px;
+    }
+    .genero p
+    {
+        margin-top: 30px;
+    }
+
+    .nombre input[type=text]
+    {
+        height: 30px;
+        width: 190px;
+    }
+    .correo #txtCorreo
+    {
+        height: 30px;
+        width: 393px;
+    }
+    
+    .fecha
+    {
+        margin-top: 40px;
+        margin-left: -90px;
+        font-size: 15px;
+    }
+    .fecha h4
+    {
+        font-size: 14px;
+        margin-left: 135px;
+    }
+    .fecha #Dia
+    {
+       width: 56px;
+       font-size: 15px;
+    }
+    .fecha #fecha_mes
+    {
+        font-size: 15px;
+    }
+    .fecha #Año
+    {
+        width: 57px;
+        font-size: 15px;
+    }
+    .pass #txtContra
+    {
+        width: 365px;
+        height: 30px;
+    }
+
+    #condiciones2
+    {
+        font-size: 14px;
+        margin-left: 80px;
+    }
+    .num
+    {
+        margin-top: 45px;
+    }
+    .num #Num
+    {
+        width: 297px;
+        height: 30px;
+        
+    }
+    .num #Numero
+    {
+        height: 35px;
+        font-size: 15px;
+        width: 70px;
+    }
+    .terminos
+    {
+        margin-top: 28px;
+        margin-left: -150px;
+    }
+    .FormularioIn input[type = submit]
+    {
+        margin-top: 30px;
+        margin-left: 270px;
+      
+    }
+    .Formulario
+    {  
+        height: 50rem;
+    }
+ }
+
+ @media (min-width: 1280px)
+ {
+    body{
+        margin: 0;
+        padding: 0;
+        background: #0c8bcb;
+        font-family: Arial, Helvetica, sans-serif;
+    
+    }
+    header{
+        color: white;
+        font-size: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      
+    }
+    
+    .Formulario
+    {
+        background-color: white;
+        width: 98%;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        height: 35rem;
+        border-radius: .5px;
+        height: 40rem;
+    }
+    .Formulario .titulo1
+    {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .titulo1 >h2
+    {
+        margin-left: 50px;
+        width: 30%;
+    }
+    .titulo1 .camposObli >h4
+    {
+        margin-right: 1120px;
+        color: gray;
+        width: 30%;
+    }
+     .esp #Idioma
+    {
+        color: #0c8bcb; 
+        border: 0px;
+        margin-left: -130px;
+        
+    }
+    .FormularioIn
+    {
+        margin-left: 220px;
+        margin-top: 20px;
+        
+    }
+    .FormularioIn input[type = submit]
+    {
+       margin-top: 28px;
+       margin-left: 990px;
+       background-color: #0c8bcb;
+       color: #fff;
+       height: 45px;
+       border-radius: .4rem;
+       font-size: 14px;
+       font-weight: bold;
+       cursor: pointer;
+    }
+     #condiciones
+    {
+        color: #0c8bcb;
+        text-decoration: none;
+    }
+    h4
+    {
+        color: darkgray;
+        font-size: 15px;
+    }
+    #txtCorreo
+    {
+        margin-top: 30px;
+    }
+    .genero p
+    {
+        margin-top: 30px;
+    }
+    
+    .nombre input[type=text]
+    {
+        height: 30px;
+        border: 1px solid darkgray;
+        border-radius: .2rem;
+    }
+    .correo #txtCorreo
+    {
+        height: 30px;
+        width: 385px;
+        border: 1px solid darkgray;
+        border-radius: .2rem;
+        margin-left: 20px;
+    }
+    .fecha
+    {
+        margin-top: 30px;
+    }
+
+    .fecha h4
+    {
+        margin-top: 0;
+        font-size: 13px;
+        margin-left: 155px;
+    }
+    .fecha #Dia
+    {
+       width: 128px;
+       
+    }
+    .fecha #fecha_mes
+    {
+        width: 128px;
+    }
+    .fecha #Año
+    {
+        width: 128px;
+    }
+    .pass #txtContra
+    {
+        margin-top: 5px;
+        height: 30px;
+        width: 363px;
+        height: 30px;
+        border: 1px solid darkgray;
+        border-radius: .2rem;
+    
+    }
+    
+    #condiciones2
+    {
+        color: #0c8bcb;
+       text-decoration: none;
+       font-size: 14px;
+       margin-left: 80px;
+    }
+    .num
+    {
+        margin-top: 15px;
+    }
+    .num #Num
+    {
+        width: 295px;
+        height: 30px;
+        border: 1px solid darkgray;
+        border-radius: .2rem;
+    }
+    .num #Numero
+    {
+        height: 35px;
+        border-radius: .2rem;
+    }
+    .terminos
+    {
+        margin-top: 25px;
+    }
+    
+
+ }
+ 
